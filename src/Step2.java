@@ -1,12 +1,12 @@
 public class Step2 {
     public static void main(String[] args) {
-        int a = 100;
-        int b = a + 200;
-        int c = a + 1300;
+        int balance = 100;
+        int refill_1 = balance + 200;
+        int refill_2 = balance + 1300;
 
         int bonus;
         bonus = 14;
-        System.out.println("Итог без бонуса=" + b);
-        System.out.println("Итог с бонусом=" + (c + bonus));
+        System.out.println("Итог без бонуса=" + refill_1);
+        System.out.println("Итог с бонусом=" + (refill_2 + bonus));
     }
 }
