@@ -3,11 +3,11 @@ public class Step2 {
         int balance = 100;
         int refill = balance + 1300;
 
-        int bonus = 14;
+        int bonus = 0;
         if (refill >= 1000)
             bonus = refill / 100;
 
         System.out.println("Итог с бонусом=" + (refill + bonus));
-        
+
     }
 }
