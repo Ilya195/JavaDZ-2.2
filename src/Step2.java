@@ -1,16 +1,16 @@
 public class Step2 {
     public static void main(String[] args) {
-        int balance = 100;
-        int refill = balance + 1300;
+        int balance = 300;
+        int refill = 1400;
 
-        int bonus = 0;
-        if (refill >= 1000){
-            bonus = refill / 100;
-        }else {
-            bonus = 0;
+
+        int bonus = refill > 1000 ? refill / 100 : 0;
+        // if (refill > 1000){
+        //   bonus = refill / 100;
+            int total = balance + refill + bonus;
+
+
+            System.out.println("Итог с бонусом=" + total);
+            System.out.println("Бонус=" + bonus);
         }
-
-        System.out.println("Итог с бонусом=" + (refill + bonus));
-
     }
-}
