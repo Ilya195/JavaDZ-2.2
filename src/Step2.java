@@ -7,10 +7,10 @@ public class Step2 {
         int bonus = refill > 1000 ? refill / 100 : 0;
         // if (refill > 1000){
         //   bonus = refill / 100;
-            int total = balance + refill + bonus;
+        int total = balance + refill + bonus;
 
 
-            System.out.println("Итог с бонусом=" + total);
-            System.out.println("Бонус=" + bonus);
-        }
+        System.out.println("Итог с бонусом=" + total);
+        System.out.println("Бонус=" + bonus);
     }
+}
